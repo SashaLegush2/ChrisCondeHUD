@@ -1,0 +1,190 @@
+"characters"
+{
+	"basic_demoman"
+	{
+		"image"	"../console/characters/demoman"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	}
+	"halloween_demoman"
+	{
+		"image"	"../console/characters/demoman"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_demoman"
+	{
+		"image"	"../console/characters/demoman"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+		"holiday_restriction"	"christmas"
+	}
+	"basic_soldier"
+	{
+		"image"	"../console/characters/soldier"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}
+	"halloween_soldier"
+	{
+		"image"	"../console/characters/soldier"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_soldier"
+	{
+		"image"	"../console/characters/soldier"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+		"holiday_restriction"	"christmas"
+	}
+	"basic_medic"
+	{
+		"image"	"../console/characters/medic"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+	}
+	"halloween_medic"
+	{
+		"image"	"../console/characters/medic"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_medic"
+	{
+		"image"	"../console/characters/medic"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+		"holiday_restriction"	"christmas"
+	}
+	"basic_scout"
+	{
+		"image"	"../console/characters/scout"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+	}
+	"halloween_scout"
+	{
+		"image"	"../console/characters/scout"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_scout"
+	{
+		"image"	"../console/characters/scout"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+		"holiday_restriction"	"christmas"
+	}
+	"basic_heavy"
+	{
+		"image"	"../console/characters/heavy"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+	}
+	"halloween_heavy"
+	{
+		"image"	"../console/characters/heavy"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_heavy"
+	{
+		"image"	"../console/characters/heavy"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+		"holiday_restriction"	"christmas"
+	}
+	"basic_pyro"
+	{
+		"image"	"../console/characters/pyro"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+	}
+	"halloween_pyro"
+	{
+		"image"	"../console/characters/pyro"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_pyro"
+	{
+		"image"	"../console/characters/pyro"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+		"holiday_restriction"	"christmas"
+	}
+	"basic_sniper"
+	{
+		"image"	"../console/characters/sniper"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+	}
+	"halloween_sniper"
+	{
+		"image"	"../console/characters/sniper"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_sniper"
+	{
+		"image"	"../console/characters/sniper"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+		"holiday_restriction"	"christmas"
+	}
+	"basic_spy"
+	{
+		"image"	"../console/characters/spy"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+	}
+	"halloween_spy"
+	{
+		"image"	"../console/characters/spy"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_spy"
+	{
+		"image"	"../console/characters/spy"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+		"holiday_restriction"	"christmas"
+	}
+	"basic_engineer"
+	{
+		"image"	"../console/characters/engineer"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+	}
+	"halloween_engineer"
+	{
+		"image"	"../console/characters/engineer"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_engineer"
+	{
+		"image"	"../console/characters/engineer"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+		"holiday_restriction"	"christmas"
+	}
+	"summer_bbq"
+	{
+		"image"	"../console/characters/demoman"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+		"holiday_restriction"	"summer"
+	}
+}
