@@ -42,4 +42,18 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
+
+	"BGPanel"
+	{
+		"label"									""
+		"command"								"0"
+		"onlyatmenu"							"1"
+	}
+
+	"OuterShadow"
+	{
+		"label"									""
+		"command"								"0"
+		"onlyatmenu"							"1"
+	}
 }

@@ -123,6 +123,23 @@
 		}
 	}	
 
+	"Dark"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Dark"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-150"
+		"wide"			"f0"
+		"tall"			"500"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/blank"
+		"fillcolor"		"0 0 0 255"
+		"alpha"			"200"
+	}
+	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -587,13 +604,29 @@
 		"bgcolor_override"	"CondeOrange"
 	}
 
-	"BottomPanel2"
+	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BottomPanel2"
-		"xpos"			"0"
-		"ypos"			"r27"
+		"fieldName"		"BGPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"r28"
+		"zpos"			"-1"
 		"wide"			"f0"
+		"tall"			"28"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"41 35 35 90"
+		"border"		"noborder"
+		"proportionaltoparent"	"1"
+	}
+
+	"OuterShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"OuterShadow"
+		"xpos"			"-5"
+		"ypos"			"r28"
+		"wide"			"1000"
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"

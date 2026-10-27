@@ -21,3 +21,15 @@ startupmenu
 
 //extends the dimmer to the bottom
 exec dimmer.cfg
+
+cl_mainmenu_safemode 1
+
+cl_crosshair_red 0
+cl_crosshair_green 0
+cl_crosshair_blue 0
+cl_crosshairalpha 255
+cl_crosshair_scale 10.8
+
+cl_crosshaircolor 5
+cl_crosshair_file ""
+crosshair 1

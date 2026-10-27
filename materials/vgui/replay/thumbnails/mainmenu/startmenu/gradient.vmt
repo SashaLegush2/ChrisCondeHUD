@@ -1,9 +1,11 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\mainmenu\startmenu\gradient"
-	"$vertexalpha"			"1"
-	"$alpha"				"0"
-	"$translucent"			"1"
-	"$vertexcolor"			"1"
-	"$no_fullbright"		"1"
+	"$baseTexture" "vgui\replay\thumbnails\mainmenu\startmenu\gradient"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+	"$vertexalpha" 1
 }
+

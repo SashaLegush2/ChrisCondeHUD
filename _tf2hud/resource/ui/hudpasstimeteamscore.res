@@ -1,0 +1,117 @@
+"Resource/UI/HudPasstimeTeamScore.res"
+{
+	"HudTeamScore"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"HudPasstimeTeamScore"
+		"xpos"				"0"
+		"ypos"				"-25"
+		"zpos"				"20"
+		"wide"				"f0"
+		"tall"				"505"
+		"visible"			"1"
+		"enabled"			"1"
+	}
+	
+	"BlueScore"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BlueScore"
+		"xpos"			"c-94"
+		"ypos"			"28"
+		"zpos"			"20"
+		"wide"			"80"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%bluescore%"
+		"font"			"HudFontMediumSmallBold"
+		"fgcolor"		"TanLight"
+	}	
+		
+	"BlueScoreShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BlueScoreShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"7"
+		"wide"			"80"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%bluescore%"
+		"font"			"HudFontMediumSmallBold"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"BlueScore"
+	}	
+							
+	"RedScore"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"RedScore"
+		"xpos"			"c14"
+		"ypos"			"28"
+		"zpos"			"8"
+		"wide"			"80"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%redscore%"
+		"font"			"HudFontMediumSmallBold"
+		"fgcolor"		"TanLight"		
+	}	
+		
+	"RedScoreShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"RedScoreShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"7"
+		"wide"			"80"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%redscore%"
+		"font"			"HudFontMediumSmallBold"
+		"fgcolor"		"Black"		
+		"pin_to_sibling"	"RedScore"
+	}
+
+	"PlayingToCluster"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"PlayingToCluster"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"10"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"PlayingTo"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayingTo"
+			"xpos"			"c-70"
+			"ypos"			"60"
+			"zpos"			"4"
+			"wide"			"140"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#TF_PlayingTo"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"ScoreboardSmall"
+			"fgcolor"		"TanLight"
+		}
+	}
+}

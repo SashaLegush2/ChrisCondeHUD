@@ -1,5 +1,6 @@
-#base "HudObjectivePlayerDestruction.res"
-"Resource/UI/SelbyenHUD.res"
+#base "hudobjectiveplayerdestruction.res"
+
+"resource/ui/selbyenhud.res"
 {
 	"CarriedContainer"
 	{
@@ -15,12 +16,12 @@
 			 "FlagImageBlue"
 			 {
 					 "image"	"replay/thumbnails/selbyen_pickup"
-					 "zpos"			"100"
+					 "zpos"		"100"
 			 }
 			 "FlagImageRed"
 			 {
 					 "image"	"replay/thumbnails/selbyen_pickup"
-					 "zpos"			"100"
+					 "zpos"		"100"
 			 }
 		 }
 	}

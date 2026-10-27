@@ -41,13 +41,13 @@
 			"wide"		"p0.5"
 			"tall"		"0"
 			"zpos"	"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"rotation"		"2"
 			"proportionaltoparent"	"1"
 			"scaleimage"	"1"
 			"mouseinputenabled"	"0"
-			"alpha"		"100"
+			"alpha"		"0"
 
 			"image"		"gradient_pure_black"
 		}
@@ -60,12 +60,13 @@
 			"ypos"			"-2"
 			"zpos"			"-1"
 			"wide"			"p1.1"
-			"tall"			"f0"
-			"visible"		"1"
+			"tall"			"0"
+			"visible"		"0"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"41 35 35 90"
+			"bgcolor_override"	"41 35 35 0"
 			"border"		"noborder"
 			"proportionaltoparent"	"1"
+			"alpha"				"0"
 		}
 
 		"OuterShadow"
@@ -75,10 +76,11 @@
 			"xpos"			"-5"
 			"ypos"			"-2"
 			"wide"			"1000"
-			"tall"			"2"
+			"tall"			"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"100 99 97 255"
+			"bgcolor_override"	"100 99 97 0"
+			"alpha"				"0"
 		}
 
 		"ToggleChatButton"
@@ -649,7 +651,7 @@
 			"wide"			"110"
 			"wide"			"110" [!$POSIX]
 			"wide"			"115" [$POSIX]
-			"tall"			"f6"
+			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -709,7 +711,7 @@
 			"zpos"			"100"
 			"wide"			"90" [!$POSIX]
 			"wide"			"95" [$POSIX]
-			"tall"			"f6"
+			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"

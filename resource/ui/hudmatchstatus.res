@@ -199,7 +199,7 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"-2"
+		"ypos"			"40"
 		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"100"
@@ -215,7 +215,7 @@
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"365"
-		"tall"				"28"
+		"tall"				"0"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
@@ -268,6 +268,57 @@
 		"fgcolor"		"Black"
 	}
 
+	"BackgroundReal"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BackgroundReal"
+		"xpos"			"cs-0.5"
+		"ypos"			"5"
+		"zpos"			"1"
+		"wide"			"75"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_red"	
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/color_panel_blu"	
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"		
+	}
+
+	"BlueSideSquare"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlueSideSquare"
+		"xpos"				"cs-0.5-54"
+		"ypos"				"5"
+		"wide"				"32"
+		"tall"				"32"
+		"visible"			"1"	
+		"enabled"			"1"
+		"image"				"../hud/color_panel_blu"
+		"scaleImage"		"1"
+	}
+
+	"RedSideSquare"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RedSideSquare"
+		"xpos"				"cs-0.5+54"
+		"ypos"				"5"
+		"wide"				"32"
+		"tall"				"32"
+		"visible"			"1"	
+		"enabled"			"1"
+		"image"				"../hud/color_panel_red"
+		"scaleImage"		"1"
+	}
+
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -275,7 +326,7 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
+		"ypos"				"10"	[$WIN32]
 		"ypos_minmode"		"-14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
@@ -312,15 +363,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
+			"font"			"TimerFont"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"22"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"11"
+			"ypos"			"-4"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
@@ -338,11 +388,11 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"cs-0.5"
-				"ypos"			"12"
+				"xpos"			"cs-0.5-10"
+				"ypos"			"0"
 				"ypos_minmode"	"12"
-				"tall"			"10"
-				"font"			"HudFontSmall"
+				"tall"			"24"
+				"font"			"TimerFont"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
 			}
@@ -353,7 +403,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
@@ -367,11 +417,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-50"
+		"team1_base_x"	"c-75"
 		"team1_max_expand"	"200"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c50"
+		"team2_base_x"	"c75"
 		"team2_max_expand"	"200"
 
 		"playerpanels_kv"
@@ -433,8 +483,8 @@
 				"tall"			"19"
 				"visible"		"1"
 				"enabled"		"1"
-				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
+				"roundedcorners"		"3"
 			}
 			"healthbar"
 			{	
@@ -442,7 +492,7 @@
 				"fieldName"				"healthbar"
 				"font"					"Default"																		
 				"xpos"					"0"
-				"ypos"					"19"
+				"ypos"					"23"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"2"				

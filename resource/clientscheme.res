@@ -1249,6 +1249,20 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"TimerFont"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"16"
+				"tall_hidef"	"22"
+				"tall_lodef"	"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 		"SpectatorKeyHints"
 		{
 			"1"
