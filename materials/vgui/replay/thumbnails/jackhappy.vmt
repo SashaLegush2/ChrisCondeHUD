@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "hud\jackhappy"
+	"$baseTexture" "vgui\replay\thumbnails\jackhappy"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

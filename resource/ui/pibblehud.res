@@ -1,0 +1,162 @@
+"resource/ui/pibblehud.res"
+{	
+	"ObjectiveStatusRobotDestruction"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ObjectiveStatusRobotDestruction"
+		"xpos"				"0"
+		"ypos"				"r130"
+		"ypos_minmode"		"140"
+		"zpos"				"-10"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"robot_kv"
+		{
+			"ControlName"	"CTFHudRobotDestruction_RobotIndicator"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+		}
+	}	
+	
+	"VSStar"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"		"VSStar"
+		"xpos"			"c-13"
+		"ypos"			"72"
+		"zpos"			"3"
+		"wide"			"26"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/jackhappy"
+		"scaleImage"	"1"
+		"drawcolor" "TanLight"
+	}
+	
+	"ScoreContainer"
+	{
+		"fieldName"				"ScoreContainer"
+		"ControlName"			"EditablePanel"
+		"xpos"					"c-200"
+		"ypos"					"72"
+		"zpos"					"0"
+		"wide"					"400"
+		"tall"					"120"
+		"scaleimage"			"0"
+		"visible"				"1"
+		"enabled"				"1"
+
+		"BlueScoreValueContainer"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"BlueScoreValueContainer"
+			"xpos"				"97"
+			"ypos"				"2"
+			"zpos"				"10"
+			"wide"				"100"
+			"tall"				"25"
+			"visible"			"1"
+			"enabled"			"1"
+			"bgcolor_override"		"0 0 0 0"
+			"proportionalToParent"	"1"
+
+			"Score"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"Score"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"8"
+				"wide"			"100"
+				"tall"			"25"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"east"	
+				"labelText"		"%score%"
+				"font"			"HudFontMediumBold"
+				"fgcolor"		"HUDBlueTeamSolid"		
+				"proportionalToParent"	"1"
+				"textinsetx"	"30"
+			}	
+		
+			"ScoreShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"ScoreShadow"
+				"xpos"			"1"
+				"ypos"			"1"
+				"zpos"			"7"
+				"wide"			"100"
+				"tall"			"25"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"east"	
+				"labelText"		"%score%"
+				"font"			"HudFontMediumBold"
+				"fgcolor"		"Black"		
+				"proportionalToParent"	"1"
+				"textinsetx"	"30"
+			}
+		}
+
+		"RedScoreValueContainer"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"RedScoreValueContainer"
+			"xpos"				"r197"
+			"ypos"				"2"
+			"zpos"				"10"
+			"wide"				"100"
+			"tall"				"25"
+			"visible"			"1"
+			"enabled"			"1"
+			"bgcolor_override"		"0 0 0 0"
+			"proportionalToParent"	"1"
+
+			"Score"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"Score"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"8"
+				"wide"			"100"
+				"tall"			"25"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"west"	
+				"labelText"		"%score%"
+				"font"			"HudFontMediumBold"
+				"fgcolor"		"HUDRedTeamSolid"	
+				"proportionalToParent"	"1"	
+				"textinsetx"	"30"
+			}	
+		
+			"ScoreShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"ScoreShadow"
+				"xpos"			"1"
+				"ypos"			"1"
+				"zpos"			"7"
+				"wide"			"100"
+				"tall"			"25"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"west"	
+				"labelText"		"%score%"
+				"font"			"HudFontMediumBold"
+				"fgcolor"		"Black"		
+				"proportionalToParent"	"1"
+				"textinsetx"	"30"
+			}
+		}
+	}
+}
