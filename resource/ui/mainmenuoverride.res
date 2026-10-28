@@ -2057,8 +2057,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"r25"
-		"ypos"			"cs-0.5-30"
+		"xpos"			"276"
+		"ypos"			"cs-0.5-75"
 		"zpos"			"11"
 		"wide"			"25"
 		"tall"			"25"
@@ -2091,13 +2091,13 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"RoundedCorners"	"1"
+			"RoundedCorners"	"2"
 			
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultBgColor_override" "43 38 34 255"
+			"armedBgColor_override" "43 38 34 255"
+			"depressedBgColor_override" "43 38 34 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2126,8 +2126,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"r25"
-		"ypos"			"cs-0.5-5"
+		"xpos"			"276"
+		"ypos"			"cs-0.5-51"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2160,14 +2160,14 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"RoundedCorners"	"5"
+			"RoundedCorners"	"10"
 			
 			"border_default"	"noborder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultBgColor_override" "43 38 34 255"
+			"armedBgColor_override" "43 38 34 255"
+			"depressedBgColor_override" "43 38 34 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2194,8 +2194,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"r25"
-		"ypos"			"cs-0.5+20"
+		"xpos"			"276"
+		"ypos"			"cs-0.5-27"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2231,11 +2231,11 @@
 			
 			"border_default"	"noborder"
 			"paintbackground"	"1"
-			"RoundedCorners"	"5"
+			"RoundedCorners"	"10"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultBgColor_override" "43 38 34 255"
+			"armedBgColor_override" "43 38 34 255"
+			"depressedBgColor_override" "43 38 34 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2263,8 +2263,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"r25"
-		"ypos"			"cs-0.5+45"
+		"xpos"			"276"
+		"ypos"			"cs-0.5-3"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2297,13 +2297,13 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"RoundedCorners"	"4"
+			"RoundedCorners"	"8"
 			
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultBgColor_override" "43 38 34 255"
+			"armedBgColor_override" "43 38 34 255"
+			"depressedBgColor_override" "43 38 34 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
