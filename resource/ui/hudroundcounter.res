@@ -4,7 +4,7 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"-2"
+		"ypos"			"-12"
 		"zpos"			"2"		
 		"wide"			"300"
 		"tall"			"25"

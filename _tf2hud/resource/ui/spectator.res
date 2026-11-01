@@ -18,16 +18,13 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
-		"tall"			"84"	[$WIN32]
-		"tall_minmode"			"20"	[$WIN32]
-		"tall"			"104"	[$X360]		
-		"wide"			"f0"
+		"wide"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"		"0"
 	}
 	"BottomBar"
@@ -43,7 +40,7 @@
 		"tall"			"90"	[$X360]		
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
@@ -51,14 +48,14 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"r70"	[$WIN32]
 		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
+		"tall"			"0"	[$WIN32]		// this needs to match the size of BottomBar
 		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
-		"wide"			"f0"
+		"tall"			"0"	[$X360]		
+		"wide"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

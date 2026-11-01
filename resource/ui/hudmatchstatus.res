@@ -199,7 +199,7 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"40"
+		"ypos"			"35"
 		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"100"

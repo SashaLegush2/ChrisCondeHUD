@@ -286,20 +286,16 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"zpos"					"-400"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"150"
-		"tall"					"16"
+		"xpos"					"cs-0.5"
+		"ypos"					"10"
+		"wide"					"280"
+		"tall"					"35"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"1"
 		"labelText"				"NameOfCarrier"
-		pin_to_sibling			ProgressLevelBar
-		pin_corner_to_sibling	4
-		pin_to_sibling_corner	6
+		"border"				"PasstimeBG"
 	}
-
-
 
 	"BallPowerCluster" 
 	{
@@ -308,7 +304,7 @@
 		"xpos" "0"
 		"ypos" "10"
 		"zpos" "5"
-		"wide" "f0"
+		"wide" "0"
 		"tall" "f0"
 		"autoResize"	"0"
 		"visible"		"1"

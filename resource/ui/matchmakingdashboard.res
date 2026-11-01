@@ -592,7 +592,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"30"
-			"tall"			"f5"
+			"tall"			"f4"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -614,8 +614,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"160 24 0 255"
+			"defaultBgColor_override"	"144 21 0 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -651,7 +651,7 @@
 			"wide"			"110"
 			"wide"			"110" [!$POSIX]
 			"wide"			"115" [$POSIX]
-			"tall"			"f5"
+			"tall"			"f4"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -711,7 +711,7 @@
 			"zpos"			"100"
 			"wide"			"90" [!$POSIX]
 			"wide"			"95" [$POSIX]
-			"tall"			"f5"
+			"tall"			"f4"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
@@ -770,7 +770,7 @@
 			"zpos"			"100"
 			"wide"			"115" [!$POSIX]
 			"wide"			"120" [$POSIX]
-			"tall"			"f5"
+			"tall"			"f4"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"

@@ -347,11 +347,11 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"c-290"
-		"ypos"			"94"
-		"zpos"			"-99"
-		"wide"			"260"
-		"tall"			"100"
+		"xpos"			"c-365"
+		"ypos"			"80"
+		"zpos"			"99"
+		"wide"			"220"
+		"tall"			"120"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -359,7 +359,7 @@
 		"textinsetx"	"40"
 		"textinsety"	"10"
 
-		"font"			"HudFontSmallestBold"
+		"font"			"FontStorePrice"
 		"fgcolor_override"	"TanLight"
 		"labelText"		"#TF_MM_NoGC_Rank"
 		"textAlignment"	"north-west"
@@ -370,9 +370,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"c-285"
-		"ypos"			"107"
-		"zpos"			"-99"
+		"xpos"			"c-370"
+		"ypos"			"90"
+		"zpos"			"99"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
@@ -1704,7 +1704,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
-			"bgcolor_override"	"43 38 34 255"
+			"bgcolor_override"	"48 38 34 255"
 		}
 
 		"BelowDarken"
@@ -2415,7 +2415,7 @@
 		"ypos"			"r50"
 		"zpos"			"13"
 		"wide"			"32"
-		"tall"			"32"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../vgui/new"
